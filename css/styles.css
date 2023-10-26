@@ -25,7 +25,7 @@ body {
 
 header {
   max-width: 100%;
-  width: 1440px;
+  width: 100%;
   align-content: center;
 }
 header div {
@@ -76,6 +76,9 @@ h4 {
 }
 
 .top-outside-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
   overflow: hidden;
   margin-bottom: 46px;
 }
@@ -86,7 +89,8 @@ h4 {
   margin-top: -750px;
 }
 .top-outside-container .top-container {
-  margin-left: 165px;
+  margin: auto;
+  margin-left: 10%;
   margin-top: 252px;
   display: flex;
   flex-direction: column;
@@ -162,8 +166,7 @@ h4 {
 }
 
 footer {
-  max-width: 100%;
-  width: 1440px;
+  width: 100%;
   height: 120px;
   background-color: #13183F;
   align-content: center;
